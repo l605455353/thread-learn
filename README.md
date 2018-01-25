@@ -18,7 +18,7 @@
 8. [Lambda方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodEightLambda.java)
 - [lambda表达式学习](./src/main/java/top/lfyao/thread/threadImplementMethod/LambdaTest.java)
 
-
+你好
 
 
 
