@@ -17,16 +17,16 @@ public class MethodEightLambda {
 
     public int addList(List<Integer> list) {
         // 串行
-        list.stream().forEach(System.out::println);
-
+//        list.stream().forEach(System.out::println);
+//        return 1;
 
         /*// 并行 遍历 有序
         list.parallelStream().forEachOrdered(System.out::println);*/
 
       /*  // 并行 遍历
         list.parallelStream().forEach(System.out::println);*/
-        return 1;
+
         // parallelStream并行流
-//        return list.parallelStream().mapToInt(i -> i * 2).sum();
+        return list.parallelStream().mapToInt(i -> i * 2).sum();
     }
 }

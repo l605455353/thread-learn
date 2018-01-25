@@ -1,25 +1,22 @@
 ## 并发编程由浅入深系统学习（持续更新中）
 
-> 目录ke在支持md格式文件的软件中使用
+> 目录ke在支持md格式文件的软件可以使用中使用
+## 目录
+- [八种创建线程的方式](#0)
 
-0. [八种创建线程的方式](#0)
 
-
-
+## 内容
 <h4 id="0" />
 
-<span>
-    1.继承Thread类（中断线程 和守护线程）<br/>
-    2.实现Runnable接口<br/>
-    3.匿名内部类的方式<br/>
-    4.带返回值的创建线程方式<br/>
-    5.定时器<br/>
-    6.线程池实现<br/>
-    7.spring方式<br/>
-    8.Lambda方式（lambda表达式学习）<br/>
-</span>
-
-- [Lambda方式创建](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodEightLambda.java)
+1. [继承Thread类（中断线程 和守护线程）](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodOne.java)
+2. [实现Runnable接口](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodTwo.java)
+3. [匿名内部类的方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodThree.java)
+4. [带返回值的创建线程方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodFour.java)
+5. [定时器](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodFive.java)
+6. [线程池实现](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodSix.java)
+7. [spring方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodSeven.java)
+8. [Lambda方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodEightLambda.java)
+- [lambda表达式学习](./src/main/java/top/lfyao/thread/threadImplementMethod/LambdaTest.java)
 
 
 
