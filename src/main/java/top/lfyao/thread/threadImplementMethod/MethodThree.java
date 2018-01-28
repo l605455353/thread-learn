@@ -14,7 +14,7 @@ public class MethodThree {
         }) {
             public void run() {
                 System.out.println("thread-1 start ..");
-            };
+            }
         }.start();
 
 

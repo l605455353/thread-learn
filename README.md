@@ -3,6 +3,7 @@
 > 目录ke在支持md格式文件的软件可以使用中使用
 ## 目录
 - [八种创建线程的方式](#0)
+- [重入锁、自旋锁、死锁](#1)
 
 
 ## 内容
@@ -18,8 +19,14 @@
 8. [Lambda方式](./src/main/java/top/lfyao/thread/threadImplementMethod/MethodEightLambda.java)
 - [lambda表达式学习](./src/main/java/top/lfyao/thread/threadImplementMethod/LambdaTest.java)
 
-你好
 
+<h4 id="1" />
+
+- [死锁](./src/main/java/top/lfyao/thread/lock/DeadLock.java)
+
+<span>
+windows系统可以通过命令：jconsole 开查看线程是否变成了死锁
+<span/>
 
 
 

@@ -1,4 +1,4 @@
-package top.lfyao.thread;
+package top.lfyao.thread.threadImplementMethod;
 
 public class NewThread implements Runnable {
 
