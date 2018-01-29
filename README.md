@@ -4,6 +4,11 @@
 ## 目录
 - [八种创建线程的方式](#0)
 - [重入锁、自旋锁、死锁](#1)
+- [单例应用中谈volatile和synchronized区别](#2)
+- [Atomic原子操作](#3)
+- [手写可重入锁Lock](#4)
+- [AQS 重写锁](#5)
+
 
 
 ## 内容
@@ -25,10 +30,30 @@
 - [死锁](./src/main/java/top/lfyao/thread/lock/DeadLock.java)
 
 <span>
-windows系统可以通过命令：jconsole 开查看线程是否变成了死锁
+windows系统可以通过命令：jconsole 打开查看线程是否变成了死锁
 <span/>
 
+<h4 id="2" />
 
+- [单例应用中谈volatile和synchronized区别](./src/main/java/top/lfyao/thread/lock/VolatileLock.java)
+
+<h4 id="3" />
+
+- [Atomic原子操作](./src/main/java/top/lfyao/thread/lock/AtomicOperator.java)
+
+<span>
+Atomic<br/>
+在多线程环境下，无锁的进行原子操作。<br/>
+主要用途：可用于多线程高并发的计数器.
+<span/>
+
+<h4 id="4" />
+
+- [手写可重入锁Lock](./src/main/java/top/lfyao/thread/LockImplement/MyLock.java)
+
+<h4 id="5" />
+
+- [AQS 重写锁](./src/main/java/top/lfyao/thread/LockImplement/MyLock2.java)
 
 
 
