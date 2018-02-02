@@ -1,4 +1,4 @@
-package top.lfyao.thread.LockImplement;
+package top.lfyao.thread.lockImplement;
 
 /**
  *  *实现Lock的Demo

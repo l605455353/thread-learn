@@ -8,6 +8,7 @@
 - [Atomic原子操作](#3)
 - [手写可重入锁Lock](#4)
 - [AQS 重写锁](#5)
+- [线程之间通信](#7)
 
 
 
@@ -49,11 +50,20 @@ Atomic<br/>
 
 <h4 id="4" />
 
-- [手写可重入锁Lock](./src/main/java/top/lfyao/thread/LockImplement/MyLock.java)
+- [手写可重入锁Lock](src/main/java/top/lfyao/thread/lockImplement/MyLock.java)
 
 <h4 id="5" />
 
-- [AQS 重写锁](./src/main/java/top/lfyao/thread/LockImplement/MyLock2.java)
+- [AQS 重写锁](src/main/java/top/lfyao/thread/lockImplement/MyLock2.java)
+
+<h4 id="7" />
+
+- [线程之间通信](./src/main/java/top/lfyao/thread/threadCommunication/Demo.java)
+
+<span>
+1.wait() 和notify()必须放在同步代码块中执行<br/>
+2.notify 执行后，必须在此同步代码释放锁以后，叫醒的线程才开始竞争<br/>
+<span/>
 
 
 

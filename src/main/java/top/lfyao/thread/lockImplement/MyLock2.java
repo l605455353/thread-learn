@@ -1,4 +1,4 @@
-package top.lfyao.thread.LockImplement;
+package top.lfyao.thread.lockImplement;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
