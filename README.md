@@ -9,6 +9,7 @@
 - [手写可重入锁Lock](#4)
 - [AQS 重写锁](#5)
 - [线程之间通信](#7)
+- [ThreadLocal](#8)
 
 
 
@@ -60,10 +61,20 @@ Atomic<br/>
 
 - [线程之间通信](./src/main/java/top/lfyao/thread/threadCommunication/Demo.java)
 
+    [简易版线程池](./src/main/java/top/lfyao/thread/threadCommunication/DatePool2.java)
+
 <span>
 1.wait() 和notify()必须放在同步代码块中执行<br/>
 2.notify 执行后，必须在此同步代码释放锁以后，叫醒的线程才开始竞争<br/>
 <span/>
 
 
+<h4 id="8" />
 
+- [ThreadLocal](./src/main/java/top/lfyao/thread/threadCommunication/threadLocal/ThreadLocalDemo.java)
+
+<span>
+1.ThreadLocalMap内部Entry中key使用的是对ThreadLocal对象的弱引用<br/>
+2.ThreadLocalMap里面就会存在key为null但是value不为null的entry项<br/>
+3.会发生内存泄露，所以在使用完毕后即使调用remove方法才是解决内存泄露的王道
+<span/>
