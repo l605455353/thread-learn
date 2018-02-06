@@ -13,6 +13,7 @@
 - [线程之间通信](#7)
 - [ThreadLocal](#8)[link](http://ifeve.com/%E4%BD%BF%E7%94%A8threadlocal%E4%B8%8D%E5%BD%93%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/)
 - [并发工具类CountDownLatch](#9)[link](http://ifeve.com/talk-concurrency-countdownlatch/)
+- [并发工具类CyclicBarrier](#10)
 
 
 ## 内容
@@ -84,4 +85,19 @@ Atomic<br/>
 <h4 id="9" />
 
 - [并发工具类CountDownLatch](./src/main/java/top/lfyao/thread/threadUtils/countDownLatch/Demo.java)
+
+<span>
+CountDownLatch（同步辅助类） 计数<br/>
+演示：1.多线程异步计算test.txt中每一行的总数 2.等待每行都计算完后，算出所有行的总数
+<span/>
+
+<h4 id="10" />
+
+- [并发工具类CyclicBarrier](./src/main/java/top/lfyao/thread/threadUtils/cyclicBarrier/Demo.java)
+
+<span>
+CyclicBarrier: 一个同步辅助类，它允许一组线程互相等待，直到到达某个公共屏障点<br/>
+演示：一群人开会 等待人都到齐了才开始会议
+<span/>
+
 
