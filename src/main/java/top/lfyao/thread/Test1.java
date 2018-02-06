@@ -18,7 +18,6 @@ public class Test1 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 
 

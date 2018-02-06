@@ -1,16 +1,18 @@
 ## 并发编程由浅入深系统学习（持续更新中）
 
-> 目录ke在支持md格式文件的软件可以使用中使用
+> 目录ke在支持md格式文件的软件可以使用中使用 link是参考学习地址
 ## 目录
-- [八种创建线程的方式](#0)
-- [重入锁、自旋锁、死锁](#1)
-- [单例应用中谈volatile和synchronized区别](#2)
-- [Atomic原子操作](#3)
-- [手写可重入锁Lock](#4)
-- [AQS 重写锁](#5)
-- [线程之间通信](#7)
-- [ThreadLocal](#8)
 
+- [八种创建线程的方式](#0)
+- [重入锁、自旋锁、死锁](#1)[link](http://blog.csdn.net/javazejian/article/details/72828483#偏向锁)
+- [单例应用中谈volatile和synchronized区别](#2)
+- [Atomic原子操作](#3)[link](https://netboyc.gitbooks.io/java-high/content/atomiclongyuan_zi_cao_zuo.html)
+- [手写可重入锁Lock](#4)
+- [AQS 重写锁](#5)[link](http://cmsblogs.com/?p=1655)
+- [锁降级、锁升级](#6)[link](https://www.jianshu.com/p/5211a8e1b9a6)
+- [线程之间通信](#7)
+- [ThreadLocal](#8)[link](http://ifeve.com/%E4%BD%BF%E7%94%A8threadlocal%E4%B8%8D%E5%BD%93%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/)
+- [并发工具类CountDownLatch](#9)[link](http://ifeve.com/talk-concurrency-countdownlatch/)
 
 
 ## 内容
@@ -78,3 +80,8 @@ Atomic<br/>
 2.ThreadLocalMap里面就会存在key为null但是value不为null的entry项<br/>
 3.会发生内存泄露，所以在使用完毕后即使调用remove方法才是解决内存泄露的王道
 <span/>
+
+<h4 id="9" />
+
+- [ThreadLocal](./src/main/java/top/lfyao/thread/threadUtils/countDownLatch/Demo.java)
+
