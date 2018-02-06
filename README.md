@@ -83,5 +83,5 @@ Atomic<br/>
 
 <h4 id="9" />
 
-- [ThreadLocal](./src/main/java/top/lfyao/thread/threadUtils/countDownLatch/Demo.java)
+- [并发工具类CountDownLatch](./src/main/java/top/lfyao/thread/threadUtils/countDownLatch/Demo.java)
 
