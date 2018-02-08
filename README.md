@@ -14,6 +14,8 @@
 - [ThreadLocal](#8)[link](http://ifeve.com/%E4%BD%BF%E7%94%A8threadlocal%E4%B8%8D%E5%BD%93%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%AF%BC%E8%87%B4%E5%86%85%E5%AD%98%E6%B3%84%E9%9C%B2/)
 - [并发工具类CountDownLatch](#9)[link](http://ifeve.com/talk-concurrency-countdownlatch/)
 - [并发工具类CyclicBarrier](#10)
+- [Future设计实现](#11)
+- [forkJoin](#12)
 
 
 ## 内容
@@ -100,4 +102,12 @@ CyclicBarrier: 一个同步辅助类，它允许一组线程互相等待，直�
 演示：一群人开会 等待人都到齐了才开始会议
 <span/>
 
+<h4 id="11" />
 
+- [Future设计实现](./src/main/java/top/lfyao/thread/futureTask/Demo.java)
+
+
+
+<h4 id="12" />
+
+- [forkJoin](./src/main/java/top/lfyao/thread/forkJoin/Demo.java)
