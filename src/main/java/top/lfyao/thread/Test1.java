@@ -6,6 +6,7 @@ import top.lfyao.thread.lock.Reentrant;
 import javax.xml.parsers.DocumentBuilder;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -29,8 +30,9 @@ public class Test1 {
         System.out.println(a);
 
         CopyOnWriteArrayList copyOnWriteArrayList = new CopyOnWriteArrayList();
+//        Executors
 
-
+        ArrayList<Object> objects = new ArrayList<>();
     }
 
 
