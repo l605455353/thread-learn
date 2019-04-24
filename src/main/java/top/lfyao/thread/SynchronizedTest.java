@@ -14,6 +14,7 @@ public class SynchronizedTest {
     /**
      * 锁类 测试
      */
+
     public static void testStatic() {
         SynchronizedTest test = new SynchronizedTest();
         createStaticThread("线程A");
