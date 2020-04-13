@@ -11,7 +11,9 @@ public class Demo extends RecursiveTask<Integer> {
     private int begin;
     private int end;
 
+
     public Demo(int begin, int end) {
+//        测试
         this.begin = begin;
         this.end = end;
     }
